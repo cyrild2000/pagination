@@ -1,7 +1,5 @@
 'use client'
 import { useEffect, useState, ChangeEventHandler, ChangeEvent } from "react";
-import { data } from "./data";
-import DataHeader from "./paginateddataheader";
 import DataPage from "./datapage";
 
 
