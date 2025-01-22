@@ -2,8 +2,7 @@
 import { useEffect, useState, ChangeEventHandler, ChangeEvent } from "react";
 import DataPage from "./datapage";
 
-
-export default function PaginatedData({data} : {data:Array<any>}) {
+export default function PaginatedData() {
 
     const [datatable, setdatatable] = useState<any[]>([]);
     const [numPages, setnumPages] = useState(1);
